@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+<!-- 	use radio button when user can only select one
+	use checkbox when user has multiple choices. -->
+<!-- <input type="radio" name="radiobutton">
+<input type="checkbox" name="checkbox"> -->
+<p>Do you prefer cats or dogs?</p>
+<form>
+	<label for="dogs">Dogs:</label>
+	<input type="radio" id="dogs" name="petChoice" value="dogs">
+	<label for="cats">Cats:</label>
+	<input type="radio" id="cats" name="petChoice" value="cats">
+<!-- 	select is a dropdown menu
+	it comes with options -->
+	<p>Whats your favorite color?</p>
+	<select name="color">
+		<option>red</option>
+		<option>orange</option>
+		<option>yellow</option>
+	</select>
+	<p>Whats your current mood?</p>
+<!-- 	when we want value instead of char to be sent we assign value to option
+ -->	<select name="mood">
+		<option value="happy">:)</option>
+		<option value="sad">:(</option>
+	</select>
+	<button>Go!</button>
+</form>
+<!-- text area is for inputs more than one line like for paragraphs -->
+<textarea name = "paragraph" rows="10" cols="50"></textarea>
+</body>
+</html>
