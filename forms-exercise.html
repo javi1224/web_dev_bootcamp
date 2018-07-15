@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+	<label for="firstname">First Name:</label>
+	<input type="text" name="fname" id="firstname" required>
+	<label for="lastname">Last Name:</label>
+	<input type="text" name="lname" id="lastname" required>
+		<br> <!-- you can also group the element in div to skip line -->
+	<label for="radio-male">Male</label>
+	<input type="radio" name="gender" id="radio-male" value="male">
+	<label for="radio-female">Female</label>
+	<input type="radio" name="gender" id="radio-female" value="female">
+	<label for="radio-other">Other</label>
+	<input type="radio" name="gender" id="radio-other" value="other">
+	<br>
+
+	<label for="email">Email:</label>
+	<input type="email" name="email" id="email" required>
+	<label for="password">Password:</label>
+	<!-- there is also the maxlength and minlength method for password -->
+	<input type="password" name="password" id="password" pattern=",{5,10}" required title="Password must be between 5 and 10 characters">
+	<br>
+<!-- 	since all selects where under one label you could have used the other method where you nest the data  in the label
+ -->	<label for="bday">Birthday</label>
+	<select name="month" id="bday">
+		<option>jan</option>
+		<option>feb</option>
+		<option>march</option>
+	</select>
+	<select name="day">
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+	</select>
+	<select name="year">
+		<option>2000</option>
+		<option>2001</option>
+		<option>2002</option>
+	</select>
+	<div>
+		<label for="agree">I agree to the terms and conditons</label>
+		<input type="checkbox" name="terms" id="agree" value="agreed">
+	</div>
+	<input type="submit">
+</form>
+</body>
+</html>
