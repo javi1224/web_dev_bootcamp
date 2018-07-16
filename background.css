@@ -1,0 +1,22 @@
+h1{
+	background: rgb(255,0,0);
+/*	border-width: 5px;
+	border-color: white;
+	border-style: dotted;*/
+	border: 5px dotted white;
+}
+/*you can set an image to background using 
+background: url() and link to pic*/
+body
+{
+	background: url(https://www.muralswallpaper.com/app/uploads/black-marble-textures-plain.jpg);
+}
+/*if you dont want the background to repeat the image across body
+type background-repeat: no-repeat;
+if you want the image to stretch to fit to screen type 
+background-size: cover;*/
+
+/*border in css has 
+width 
+color
+style */
