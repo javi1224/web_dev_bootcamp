@@ -1,0 +1,17 @@
+h1{
+	color: #FF0000;
+}
+/*css using 6 hexadecimals to define more colors other then just the word red
+first 2 numbers define how much red there is next 2 how much green and the last 2 how much blue
+hexadecimal 
+#0123456789ABCDEF	*/
+/*this is using the rgb color system*/
+/*you can go online and search color picker to copy the hexadecimal for the color you want*/
+h2{
+	color: rgb(0,255,0);
+}
+/*rgb ranges from 0-255*/
+/*the last method is rbga 1st 3 are the same but the last one controls transperency*/
+h3{
+	color: rgba(0,255,0,.6);
+}
