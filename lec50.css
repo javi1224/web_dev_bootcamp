@@ -1,0 +1,25 @@
+ul{
+	color: purple;
+}
+/*if you set a property on parent all properties inherit property
+*/
+li{
+	color: blue;
+}
+body{
+	color: orange;
+}
+/*specificity is the idea of multipe styles targeting a element 
+which ever style is more specific becomes the value*/
+.highlight{
+	color: yellow;
+}
+special{
+	color: pink;
+}
+/*to decide which color goes specificity does a calculation to determine which color
+gets chosen*/
+
+/*typw selector are the least specific 
+class attribute are second least specific
+id is the most specific selector*/
