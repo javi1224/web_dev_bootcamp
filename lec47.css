@@ -1,0 +1,15 @@
+/*to refer to one element you give the element id
+then in css refer to it as #id*/
+#special{
+	color: blue;
+}
+li{
+	color: purple;
+}
+/*we can id mutliple times on page but only use the name once on a page
+*/
+.complete
+{
+	/*mark a line through the text*/
+	text-decoration: line-through;
+}
