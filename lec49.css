@@ -1,0 +1,28 @@
+/*star selector will select everything on the page
+*/
+*{
+	border: 1px solid blue;
+}
+/*descendant selector wil select all a tags inside of li
+*/
+li a{
+	color: red;
+}
+/*adjacent selector allows you to select sibling 
+this does ul adjacent to h4*/
+h2 + ul{
+	border: 4px solid red;
+}
+/*attribute selector 
+*/
+/*gives all links with value of google to be blue background
+*/
+a[href="https://www.google.com"]{
+	background: blue;
+}
+/*nth of type
+allows you to select every nth type
+gave the 3rd ul purple background*/
+ul:nth-of-type(3){
+	background: purple;
+}
