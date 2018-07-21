@@ -1,0 +1,39 @@
+p{
+	font-family: Arial;
+}
+h1{
+	font-family: Georgia;
+}
+h1{
+	font-size: 100px;
+}
+/*difference units you can use px*/
+/*em is another unit that changes reletive to the size of the parent*/
+span{
+	font-size: 2.0em;
+}
+p{
+	font-size: 40px;
+}
+/*best to initialize font-size on body first
+*/
+/*body{
+	font-size: 10px;
+}*/
+/*font weight how thick the letters are*/
+p{
+	font-weight: bold;
+}
+/*some fonts allow you to use numeric value from 100-800*/
+/*line height is the spacing between lines*/
+p{
+	line-height: 2; /*this is double space*/
+}
+/*text align centers or moves the text to the right or left
+*/h1{
+	text-align: center;
+}
+/*text decoration makes underline text, strikethrough
+*/p{
+	text-decoration: underline;
+}
