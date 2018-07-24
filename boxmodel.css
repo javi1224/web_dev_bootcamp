@@ -1,0 +1,23 @@
+p{
+/*	border
+*/	border: 2px solid blue;
+/*to stop border from going all away across the screen change width
+*/width: 50%;
+height: 20%;
+/*you can also use % and it makes the box % of the body or parent element
+*/
+/*padding is the space between the border and content
+*/
+/*padding: 10px;*/
+/*you can specify if you want only border or padding on a certain side 
+*/padding-left: 40px;
+/*margin is the space on the outside of the border between elements
+*/
+/*margin: 100px;
+*/margin-top: 100px;
+/*you can do shortcut like you can do with border: toppx leftpx bottompx rightpx;
+*/
+/*you can center the margin but setting the top left or right or bottom to auto 
+*/
+
+}
