@@ -1,0 +1,29 @@
+body{
+	border: 20px solid grey;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 50%;
+	margin: auto;
+	font-size: 20px;
+	padding: 20px;
+	background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/3kc8SPX/a-mediterranean-white-puffy-clouds-timelapse-on-a-light-blue-sky-background-ideal-for-bringing-a-calming-and-reassuring-mood-to-your-video_vk2tmqzr__F0000.png);
+	/*background-repeat: no-repeat;
+	background-position: center;*/
+
+}
+h2{
+	color: darkgrey;
+}
+#first {
+	color: blue;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#second{
+	color: blue;
+	text-transform: uppercase; 
+	letter-spacing: 2px;
+}
+p:nth-of-type(even){
+	border-left: 2px solid red;
+	padding-left: 4px;
+}
